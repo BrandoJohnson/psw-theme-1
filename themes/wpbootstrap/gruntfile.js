@@ -1,19 +1,21 @@
-
-grunt.initConfig({
-
-    watch: {
+module.exports = function(grunt) {
+    grunt.initConfig({
+        pkg: grunt.file.readJSON('package.json'),
         sass: {
-            options: {
-                livereload: true
-            },
-            files: ['css/scss/**/*.scss'],
-            tasks: ['sass']
+            dist: {
+                files: {
+                    'style.css' : 'scss/main.scss'
+                }
+            }
+        },
+        watch: {
+            css: {
+                files: 'scss/main.scss',
+                tasks: ['sass']
+            }
         }
-    }
-
-});
-
-grunt.loadNpmTasks('grunt-contrib-sass');
-grunt.loadNpmTasks('grunt-contrib-watch');
-
-grunt.registerTask('default', ['watch']);
+    });
+    grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.registerTask('default',['watch']);
+}

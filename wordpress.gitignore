@@ -1,5 +1,7 @@
 *.log
 .htaccess
+workspace.xml
+tasks.xml
 sitemap.xml
 sitemap.xml.gz
 wp-config.php
