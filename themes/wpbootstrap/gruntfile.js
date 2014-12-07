@@ -11,8 +11,10 @@ module.exports = function(grunt) {
         watch: {
             css: {
                 files: 'scss/main.scss',
-                tasks: ['sass']
+                tasks: ['sass'],
+                compress: true
             }
+
         }
     });
     grunt.loadNpmTasks('grunt-contrib-sass');
