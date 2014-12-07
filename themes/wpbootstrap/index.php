@@ -3,8 +3,8 @@
 
 <header id="heading">
     <div class="container text-center">
-        <h1>Super Nintendo Rocks</h1>
-        <h4>But this is just a sample demo layout, don't get too excited!</h4>
+        <h1>Public Service Websites</h1>
+        <h4>Website for Charities, campaigns and police stations.</h4>
 
         <p><a href="index.html" class="btn btn-large btn-inverse">Check out our features</a></p>
     </div>
