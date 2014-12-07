@@ -1,6 +1,14 @@
 
 <?php get_header(); ?>
 
+<header id="heading">
+    <div class="container text-center">
+        <h1>Super Nintendo Rocks</h1>
+        <h4>But this is just a sample demo layout, don't get too excited!</h4>
+
+        <p><a href="index.html" class="btn btn-large btn-inverse">Check out our features</a></p>
+    </div>
+</header>
 
 <div id="main-content">
     <div class="container">
@@ -34,17 +42,17 @@
         <div class="row-fluid">
             <ul class="thumbnails">
                 <li class="span4">
-                    <a href="http://dribbble.com/shots/39065-snes-controller" class="thumbnail" target="_blank">
+                    <a href="#" class="thumbnail" target="_blank">
                         <img src="http://i.imgur.com/Q4bxBmd.png" alt="snes controller dribbble shot">
                     </a>
                 </li>
                 <li class="span4">
-                    <a href="http://dribbble.com/shots/525128-Micons-Series-2-SNES" class="thumbnail" target="_blank">
+                    <a href="#" class="thumbnail" target="_blank">
                         <img src="http://i.imgur.com/uQLkghZ.png" alt="minicon series2 snes console">
                     </a>
                 </li>
                 <li class="span4">
-                    <a href="http://dribbble.com/shots/633186-The-Game" class="thumbnail" target="_blank">
+                    <a href="#" class="thumbnail" target="_blank">
                         <img src="http://i.imgur.com/vLg6MDV.png" alt="snes video game cartridge shot">
                     </a>
                 </li>
@@ -54,12 +62,12 @@
         <div class="row-fluid">
             <ul class="thumbnails">
                 <li class="span6">
-                    <a href="http://dribbble.com/shots/758735-Oh-Oh-Please-Amaze-Me-Detail-IV" class="thumbnail" target="_blank">
+                    <a href="#" class="thumbnail" target="_blank">
                         <img src="http://i.imgur.com/SS8Kiln.png" alt="dribbble shots super nintendo">
                     </a>
                 </li>
                 <li class="span6">
-                    <a href="http://dribbble.com/shots/436565-Jaku-Console-Wars" class="thumbnail" target="_blank">
+                    <a href="#" class="thumbnail" target="_blank">
                         <img src="http://i.imgur.com/y3M2d7p.png" align="dribbble console wars super nintendo design">
                     </a>
                 </li>
