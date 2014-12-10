@@ -13,6 +13,9 @@ module.exports = function(grunt) {
                 files: 'scss/main.scss',
                 tasks: ['sass'],
                 compress: true
+            },
+            options: {
+                livereload: true
             }
 
         }

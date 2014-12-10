@@ -10,9 +10,10 @@ get_header(); ?>
 <header id="heading">
     <div class="container text-center">
         <h1>Public Service Websites</h1>
-        <h4>Website Design for Charities, campaigns and police stations.</h4>
+        <h4>Website Design for Charities, Campaigns, Police stations, Fire Stations and Organizations Done for you, in <i>one week.</i></h4>
 
-        <p><a href="index.html" class="btn btn-large btn-inverse">Check out our features</a></p>
+        <p><a href="#" class="btn btn-large btn-inverse">Check out our features</a></p>
+
     </div>
 </header>
 
@@ -20,27 +21,37 @@ get_header(); ?>
     <div class="container">
         <div class="row">
             <div class="span4">
-                <h2>Our Products</h2>
-                <p><?php the_field('left_feature_block'); ?></p>
-                <p class="text-center"><a class="btn" href="index.html">Read more</a></p>
+                <span class="glyphicon glyphicon-send" aria-hidden="true">
+                <h2><span class="glyphicon glyphicon-send" aria-hidden="true"></span>Send us What you Have</h2>
+                <h4><?php the_field('left_feature_block'); ?></h4>
+                </div>
+
+            <div class="span4">
+                <h2><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Done for you...</h2>
+                <h4><?php the_field('middle_feature_block'); ?></h4>
             </div>
 
             <div class="span4">
-                <h2>We Love You! <small>so much</small></h2>
-                <p><?php the_field('middle_feature_block'); ?></p>
-                <p class="text-center"><a class="btn btn-primary" href="index.html">Primary button</a></p>
-            </div>
-
-            <div class="span4">
-                <h2>Headline Here</h2>
-                <p><?php the_field('right_feature_block'); ?></p>
-                <p class="text-center"><a class="btn" href="index.html">Read more</a></p>
+                <h2><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Go Live!</h2>
+                <h4><?php the_field('right_feature_block'); ?></h4>
             </div>
         </div><!-- @end .row -->
 
+        <div class="row-fluid"><hr/>
+            <ul class="thumbnails homeblock">
+                <li class="span6">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/bootstrap/img/macbook.png" alt="dribbble shots super nintendo">
+                </li>
+                <li class="span6">
+                        <h2>A Website for your Organization<br> Done for you in <i>One Week.</i></h2>
+                        <h4>Whether you have a website already or you need a new one, we've got you covered. We do it all for you. Just provide us with whatever information, images and logos you have and we'll do the rest.</h4>
+                </li>
+            </ul>
+        </div>
+
         <hr>
 
-        <h2>See Some of our Themes</h2>
+        <h2>See Some Examples</h2>
         <div class="alert alert-info">
             <strong>Note:</strong> Click on a theme to view a demo.
         </div>
@@ -49,37 +60,21 @@ get_header(); ?>
             <ul class="thumbnails">
                 <li class="span4">
                     <a href="#" class="thumbnail" target="_blank">
-                        <img src="http://i.imgur.com/Q4bxBmd.png" alt="snes controller dribbble shot">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/bootstrap/img/public_service_websites.png" alt="public service websites">
                     </a>
                 </li>
                 <li class="span4">
                     <a href="#" class="thumbnail" target="_blank">
-                        <img src="http://i.imgur.com/uQLkghZ.png" alt="minicon series2 snes console">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/bootstrap/img/police_department_websites.png" alt="police department websites">
                     </a>
                 </li>
                 <li class="span4">
                     <a href="#" class="thumbnail" target="_blank">
-                        <img src="http://i.imgur.com/vLg6MDV.png" alt="snes video game cartridge shot">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/" alt="Charity Websites">
                     </a>
                 </li>
             </ul>
         </div><!-- @end .row-fluid -->
-
-        <div class="row-fluid">
-            <ul class="thumbnails">
-                <li class="span6">
-                    <a href="#" class="thumbnail" target="_blank">
-                        <img src="http://i.imgur.com/SS8Kiln.png" alt="dribbble shots super nintendo">
-                    </a>
-                </li>
-                <li class="span6">
-                    <a href="#" class="thumbnail" target="_blank">
-                        <img src="http://i.imgur.com/y3M2d7p.png" align="dribbble console wars super nintendo design">
-                    </a>
-                </li>
-            </ul>
-        </div><!-- @end .row-fluid -->
-
         <hr>
     </div><!-- @end .container -->
 </div><!-- @end #main-content -->
