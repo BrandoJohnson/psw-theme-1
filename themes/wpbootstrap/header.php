@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Public Service Websites</title>
+    <title><?php wp_title('|',1,'right'); ?> <?php bloginfo('name'); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -32,7 +32,7 @@
 <nav id="navigation">
     <div class="container">
         <ul class="navlinks">
-            <?php wp_list_pages(array('title_li' => '')); ?>
+            <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
         </ul>
     </div>
 </nav>
