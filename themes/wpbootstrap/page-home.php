@@ -12,7 +12,7 @@ get_header(); ?>
         <h1>Public Service Websites</h1>
         <h4>Website Design for Charities, Campaigns, Police stations, Fire Stations and Organizations Done for you, in <i>one week.</i></h4>
 
-        <p><a href="#" class="btn btn-large btn-inverse">Check out our features</a></p>
+        <p><a href="#" class="btn btn-large btn-warning">Get a Free Consultation</a></p>
 
     </div>
 </header>
@@ -43,9 +43,11 @@ get_header(); ?>
                         <img src="<?php bloginfo('stylesheet_directory'); ?>/bootstrap/img/macbook.png" alt="dribbble shots super nintendo">
                 </li>
                 <li class="span6">
-                        <h2>A Website for your Organization<br> Done for you in <i>One Week.</i></h2>
-                        <h4>Whether you have a website already or you need a new one, we've got you covered. We do it all for you. Just provide us with whatever information, images and logos you have and we'll do the rest.</h4>
+                        <h2><?php the_field('right_middle_text_field_title'); ?></i></h2>
+                        <h4><?php the_field('right_middle_text_field'); ?></h4>
                 </li>
+                <li class="span3"><?php the_field('right_middle_bottom_text_field'); ?></li>
+                <li class="span3"><?php the_field('right_middle_bottom_text_field2'); ?><button type="button" class="btn btn-warning">Free Consultation</button></li>
             </ul>
         </div>
 
@@ -65,12 +67,12 @@ get_header(); ?>
                 </li>
                 <li class="span4">
                     <a href="#" class="thumbnail" target="_blank">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/bootstrap/img/police_department_websites.png" alt="police department websites">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/bootstrap/img/twotouches.png" alt="police department websites">
                     </a>
                 </li>
                 <li class="span4">
                     <a href="#" class="thumbnail" target="_blank">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/" alt="Charity Websites">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/bootstrap/img/police_department_websites.png" alt="Charity Websites">
                     </a>
                 </li>
             </ul>
