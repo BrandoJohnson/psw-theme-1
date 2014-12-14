@@ -12,7 +12,7 @@ get_header(); ?>
         <h1>Public Service Websites</h1>
         <h4>Website Design for Charities, Campaigns, Police stations, Fire Stations and Organizations Done for you, in <i>one week.</i></h4>
 
-        <p><a href="#" class="btn btn-large btn-warning">Get a Free Consultation</a></p>
+        <p><a href="<?php get_site_url(); ?>/free-consultation/" class="btn btn-large btn-warning">Get a Free Consultation</a></p>
 
     </div>
 </header>
@@ -47,7 +47,7 @@ get_header(); ?>
                     <h4><?php the_field('right_middle_text_field'); ?></h4>
                 </li>
                 <li class="span3"><?php the_field('right_middle_bottom_text_field'); ?></li>
-                <li class="span3"><?php the_field('right_middle_bottom_text_field2'); ?><button type="button" class="btn btn-warning">Free Consultation</button></li>
+                <li class="span3"><?php the_field('right_middle_bottom_text_field2'); ?><a href="<?php get_site_url(); ?>/free-consultation/" class="btn btn-warning">Free Consultation</a></li>
             </ul>
         </div>
 
