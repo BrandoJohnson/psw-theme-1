@@ -22,17 +22,17 @@ get_header(); ?>
         <div class="row">
             <div class="span4">
                 <span class="glyphicon glyphicon-send" aria-hidden="true">
-                <h2><span class="glyphicon glyphicon-send" aria-hidden="true"></span>< Send What you Have ></h2>
+                <h2><span class="glyphicon glyphicon-send" aria-hidden="true"></span>Send What you Have</h2>
                 <h4><?php the_field('left_feature_block'); ?></h4>
             </div>
 
             <div class="span4">
-                <h2><span class="glyphicon glyphicon-search" aria-hidden="true"></span>< Done for you... ></h2>
+                <h2><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Done for you...</h2>
                 <h4><?php the_field('middle_feature_block'); ?></h4>
             </div>
 
             <div class="span4">
-                <h2><span class="glyphicon glyphicon-search" aria-hidden="true"></span>< Go Live! ></h2>
+                <h2><span class="glyphicon glyphicon-search" aria-hidden="true"></span>Go Live!</h2>
                 <h4><?php the_field('right_feature_block'); ?></h4>
             </div>
         </div><!-- @end .row -->
