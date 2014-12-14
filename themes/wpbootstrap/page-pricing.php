@@ -81,8 +81,8 @@ get_header(); ?>
                 <div class="span4">
                     <div class="plan">
                         <div class="plan-name">
-                            <h2>Advance</h2>
-                            <p class="muted">Boost your reach with an email marketing plan - All of the benefits of the basic plan, with Email Marketing.</p>
+                            <h2>Service + Marketing Plan</h2>
+                            <p class="muted">Boost your reach with an email marketing campaign - With all of the benefits of the Service Plan, with Email Marketing.</p>
                         </div>
                         <div class="plan-price">
                             <b>+$99</b> / month
@@ -92,12 +92,12 @@ get_header(); ?>
                                 First Month is <b>Free</b>
                             </div>
                             <div>
-                                <b>Up to 2,000 Subscribers</b>
-                            </div>
-                            <div>
                                 <b>Monthly Email Newsletters</b>
                             </div>
-                            <div><b>All the Benefits of the Service Plan</b></div>
+                            <div>
+                                <b>Up to 2,000 Subscribers</b>
+                            </div>
+                            <div><b>Includes all the Benefits of the Service Plan</b></div>
                         </div>
                         <div class="plan-action">
                             <a href="#" class="btn btn-block btn-large">Choose Plan</a>
