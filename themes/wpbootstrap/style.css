@@ -8070,3 +8070,13 @@ button.close {
     overflow: visible !important;
   }
 }
+.widget-box {
+  display: block;
+  width: 90%;
+  text-align: left;
+  padding: 30px 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-top: 1px solid #e5e5e5;
+  background-color: #f5f5f5;
+}
