@@ -32,7 +32,7 @@
 <nav id="navigation">
     <div class="container">
         <ul class="navlinks">
-            <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
+            <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
         </ul>
     </div>
 </nav>
