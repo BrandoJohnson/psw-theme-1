@@ -92,7 +92,7 @@ get_header(); ?>
                                 First Month is <b>Free</b>
                             </div>
                             <div>
-                                <b>Monthly Email Newsletters</b>
+                                <b>Monthly Email Newsletter</b>
                             </div>
                             <div>
                                 <b>Up to 2,000 Subscribers</b>
