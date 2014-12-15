@@ -6,7 +6,7 @@ Template Name: Sign-Up Form
 
 get_header(); ?>
     <div id="footer" align="left"><h2><div class="selected">Choose Your Plan > <span class="selectedon">Pick Your Username</span> >  Create Your Site </div></h2></div>
-
+xxx
     <section class="section row">
     <div class="section-headlines text-center span8 signform">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
