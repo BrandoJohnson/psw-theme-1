@@ -8089,3 +8089,6 @@ button.close {
 .selectedon {
   color: #6DA3E0;
 }
+.submit {
+  width: 100%;
+}
