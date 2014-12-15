@@ -39,4 +39,22 @@ function register_my_menus() {
 }
 add_action( 'init', 'register_my_menus' );
 
+
+
+// Gravity Form Redirect
+
+add_filter("gform_confirmation", "custom_confirmation", 10, 4);
+function custom_confirmation($confirmation, $form, $lead, $ajax){
+    if($form["id"] == "1"){
+        $confirmation = array("redirect" =>"http://www.publicservicewebsites.com/wp-signup.php");
+    }
+    else if($form["id"] == "2"){
+        $confirmation = "Thanks for contacting us. We will get in touch with you soon";
+    }
+
+    return $confirmation;
+}
+
+
+
 ?>
