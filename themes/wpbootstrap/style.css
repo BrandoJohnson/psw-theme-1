@@ -8086,3 +8086,6 @@ button.close {
   text-align: left;
   margin-left: 20px;
 }
+.selectedon {
+  color: #6DA3E0;
+}
