@@ -8103,3 +8103,6 @@ button.close {
 #input_1_1_5_container {
   display: none;
 }
+h1 {
+  font-size: 80px !important;
+}

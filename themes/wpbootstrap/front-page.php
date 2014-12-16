@@ -9,8 +9,11 @@ get_header(); ?>
 
 <header id="heading">
     <div class="container text-center">
-        <h1>Public Service Websites</h1>
-        <h4>Website Design for Charities, Campaigns, Police stations, Fire Stations and Organizations Done for you, in <i>one week.</i></h4>
+        <h1 class="headline">Done-For-You Websites for Public Service Organizations</h1>
+        <h4>Spend time on your organization, not your website. Effective Web Design for your Organization setup in<i>one week</i>, and managed by web professionals.</h4>
+
+
+
 
         <p><a href="<?php get_site_url(); ?>/free-consultation/" class="btn btn-large btn-warning">Get a Free Consultation</a></p>
 
