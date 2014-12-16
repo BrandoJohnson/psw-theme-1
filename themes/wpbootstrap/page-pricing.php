@@ -73,7 +73,7 @@ get_header(); ?>
                             </div>
                         </div>
                         <div class="plan-action">
-                            <a href="#" class="btn btn-success btn-block btn-large">Choose Plan</a>
+                            <a href="<?php get_site_url(); ?>/sign-up-2/" class="btn btn-success btn-block btn-large">Choose Plan</a>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@ get_header(); ?>
                             <div><b>Includes all the Benefits of the Service Plan</b></div>
                         </div>
                         <div class="plan-action">
-                            <a href="#" class="btn btn-block btn-large">Choose Plan</a>
+                            <a href="<?php get_site_url(); ?>/sign-up-2/" class="btn btn-block btn-large">Choose Plan</a>
                         </div>
                     </div>
                 </div>
