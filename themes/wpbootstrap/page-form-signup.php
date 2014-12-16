@@ -5,7 +5,7 @@ Template Name: Sign-Up Form
 */
 
 get_header(); ?>
-    <div id="footer" align="left">
+    <div id="topside" align="left">
         <h2>
             <div class="selected"><span class="selectedon">Choose Your Plan ></span> Pick Your Username > Create Your Site
             </div>
@@ -13,6 +13,7 @@ get_header(); ?>
     </div>
 
 <div id="main-content">
+
     <div class="container">
         <div class="row">
             <section class="section span12">
