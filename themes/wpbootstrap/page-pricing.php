@@ -16,10 +16,10 @@ get_header(); ?>
                 <p><?php _e('Sorry, this page does not exist.'); ?></p>
             <?php endif; ?>
         </div>
-
-        <div class="row-fluid">
-            <div class="pricing-table row-fluid text-center">
-                <div class="span4">
+    <div class="main-content">
+        <div class="container row-fluid">
+            <div class="pricing-table row-fluid text-center row">
+                <div class="span4 ">
                     <div class="plan">
                         <div class="plan-name">
                             <h2>One-Time Setup Fee</h2>
@@ -108,5 +108,6 @@ get_header(); ?>
             <p class="muted text-center">Note: You can change or cancel your plan at anytime in your account settings.</p>
         </div>
     </section>
+</div>
 
 <?php get_footer(); ?>
