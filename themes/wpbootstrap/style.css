@@ -8100,7 +8100,13 @@ button.close {
   border-top: 1px solid #e5e5e5;
   background-color: #f5f5f5;
 }
+/******************************************************************/
+/* These styles remove fields from the sign up forms */
+/******************************************************************/
 #input_1_1_5_container {
+  display: none;
+}
+#input_3_6_5_container {
   display: none;
 }
 h1 {
