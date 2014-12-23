@@ -45,7 +45,7 @@ add_action( 'init', 'register_my_menus' );
 
 add_filter("gform_confirmation", "custom_confirmation", 10, 4);
 function custom_confirmation($confirmation, $form, $lead, $ajax){
-    if($form["id"] == "1, 4, 3"){
+    if($form["id"] == "1"){
         $confirmation = array("redirect" =>"http://www.publicservicewebsites.com/wp-signup.php");
     }
     else if($form["id"] == "2"){
@@ -55,6 +55,29 @@ function custom_confirmation($confirmation, $form, $lead, $ajax){
     return $confirmation;
 }
 
+add_filter("gform_confirmation", "custom_confirmation", 10, 4);
+function custom_confirmation($confirmation2, $form, $lead, $ajax){
+    if($form["id"] == "3"){
+        $confirmation2 = array("redirect" =>"http://www.publicservicewebsites.com/wp-signup.php");
+    }
+    else if($form["id"] == "2"){
+        $confirmation2 = "Thanks for contacting us. We will get in touch with you soon";
+    }
+
+    return $confirmation2;
+}
+
+add_filter("gform_confirmation", "custom_confirmation", 10, 4);
+function custom_confirmation($confirmation3, $form, $lead, $ajax){
+    if($form["id"] == "4"){
+        $confirmation3 = array("redirect" =>"http://www.publicservicewebsites.com/wp-signup.php");
+    }
+    else if($form["id"] == "2"){
+        $confirmation3 = "Thanks for contacting us. We will get in touch with you soon";
+    }
+
+    return $confirmation3;
+}
 
 
 ?>
