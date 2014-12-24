@@ -8117,6 +8117,9 @@ h4.yoursite {
 .hideradio input[type="radio"] {
   display: none;
 }
+.selec:active {
+  background-color: red;
+}
 .selec.active {
   background-color: blue;
 }
