@@ -8114,7 +8114,6 @@ h1 {
 h4.yoursite {
   margin-left: 2em;
 }
-body .gform_wrapper .gform_body .gform_fields .gfield .gfield_checkbox li,
-body .gform_wrapper .gform_body .gform_fields .gfield .gfield_radio li {
-  padding: 2px 0 0 2px;
+.hideradio input[type="radio"] {
+  display: none;
 }
