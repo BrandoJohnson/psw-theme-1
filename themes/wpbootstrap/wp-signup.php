@@ -480,7 +480,7 @@ function signup_user( $user_name = '', $user_email = '', $errors = '' ) {
 							<p class="submit"><input type="submit" name="submit" class="btn btn-primary btn-default" value="<?php esc_attr_e('Next') ?>" /></p>
 						</form>
 					<div class="span3">
-						<p>xxxxxxx</p>
+						<?php get_sidebar(signup); ?>
 					</div>
 			</div>
 		</div>
