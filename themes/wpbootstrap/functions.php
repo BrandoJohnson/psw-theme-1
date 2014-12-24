@@ -66,26 +66,7 @@ function form_submit_button($button, $form){
 
 
 
-/**
- * Override the output of the submit button on forms, useful for
- * adding custom classes or other attributes.
- *
- * @param  string $button An HTML string of the default button
- * @param  array  $form   An array of form data
- * @return string $button
- *
- * @filter gform_submit_button
- */
-function fjarrett_gform_submit_button( $button, $form ) {
-    $button = sprintf(
-        '<input type="submit" class="btn btn-default" id="gform_submit_button_%d" value="%s">',
-        absint( $form['id'] ),
-        esc_attr( $form['button']['text'] )
-    );
 
-    return $button;
-}
-add_filter( 'gform_submit_button', 'fjarrett_gform_submit_button', 10, 2 );
 
 
 
