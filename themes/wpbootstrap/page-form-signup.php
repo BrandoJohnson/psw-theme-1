@@ -20,7 +20,6 @@ get_header(); ?>
                 <div class="section-headlines text-center signform span8">
                     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                         <div class="span8 text-left"><h2><?php the_title(); ?></h2>
-                        <h4>Tell us about your organization and we will answer any questions you might have.</h4>
                         <p><?php the_content(); ?></p></div>
 
                     <?php endwhile; else: ?>
