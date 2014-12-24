@@ -59,9 +59,4 @@ function custom_confirmation($confirmation, $form, $lead, $ajax){
 
 
 
-
-
-
-
-
 ?>
