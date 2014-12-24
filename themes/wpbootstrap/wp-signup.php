@@ -389,7 +389,7 @@ function confirm_another_blog_signup( $domain, $path, $blog_title, $user_name, $
 
 					<h2><?php printf( __( 'Your new site, %s, has been created.' ), "<a href='http://{$domain}{$path}'>{$blog_title}</a>" ) ?></h2>
 					<p>
-						<?php printf( __( '<a href="http://%1$s">http://%2$s</a> is your new site. <a href="%3$s">Log in</a> as &#8220;%4$s&#8221; using the password that was sent to you.' ), $domain.$path, $domain.$path, "http://" . $domain.$path . "/wp-login.php", $user_name ) ?>
+						<?php printf( __( '<a href="http://%1$s">http://%2$s</a> is your new site. <a href="%3$s">Log in</a> as &#8220;%4$s&#8221; using the password that was sent to you.' ), $domain.$path, $domain.$path, "http://" . $domain.$path . "wp-login.php", $user_name ) ?>
 					</p>
 				</div>
 			</div>
