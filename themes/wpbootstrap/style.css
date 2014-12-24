@@ -8114,12 +8114,8 @@ h1 {
 h4.yoursite {
   margin-left: 2em;
 }
-.hideradio input[type="radio"] {
-  display: none;
-}
-.selec.active {
-  background-color: blue;
-}
-a.selec {
-  background-color: blue;
-}
+/*
+ .hideradio input[type="radio"] {
+  display:none;
+ }
+*/
