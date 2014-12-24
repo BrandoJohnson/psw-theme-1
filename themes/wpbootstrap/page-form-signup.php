@@ -8,13 +8,13 @@ get_header(); ?>
 
 
 <div id="main-content">
+    <div id="topside" align="left">
+        <h2>
+            <div class="selected"><span class="selectedon">Choose Your Plan ></span> Pick Your Username > Create Your Site
+            </div>
+        </h2>
+    </div>
     <div class="container">
-        <div id="topside" align="left">
-            <h2>
-                <div class="selected"><span class="selectedon">Choose Your Plan ></span> Pick Your Username > Create Your Site
-                </div>
-            </h2>
-        </div>
         <div class="row">
                 <div class="section-headlines signform span8">
                     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
