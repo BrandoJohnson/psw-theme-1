@@ -16,6 +16,8 @@
 <script src="../assets/js/html5shiv.js"></script>
 <![endif]-->
 
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/"></script>
+
     <?php wp_enqueue_script("jquery"); ?>
     <?php wp_head(); ?>
 
@@ -26,6 +28,9 @@
 <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
 <link rel="shortcut icon" href="../assets/ico/favicon.png">
     <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
+
+
+
 </head>
 <body>
 
