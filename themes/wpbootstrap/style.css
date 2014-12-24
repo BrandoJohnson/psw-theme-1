@@ -8101,15 +8101,6 @@ button.close {
   background-color: #f5f5f5;
 }
 /******************************************************************/
-/* These styles remove fields from the sign up forms */
-/******************************************************************/
-#input_1_1_5_container {
-  display: none;
-}
-#input_4_6_5_container {
-  display: none !important;
-}
-/******************************************************************/
 /* End remove fields */
 /******************************************************************/
 h1 {
@@ -8119,7 +8110,4 @@ h1 {
 .inline {
   margin-top: -50px;
   float: right;
-}
-.sele {
-  margin-left: -30px;
 }
