@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="span8">
 
-                <h2 style="margin-top: 2em;">
+                <h2 style="margin-top: 1.8em;">
                     Sorry, this page was not found. If you believe you are receiving this message in error, please contact support by clicking the link tho the right.
                 </h2>
 
