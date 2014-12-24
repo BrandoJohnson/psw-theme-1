@@ -616,10 +616,8 @@ function signup_blog($user_name = '', $user_email = '', $blogname = '', $blog_ti
 	<div id="main-content">
 		<div class="container">
 			<div class="row">
-				<div class="span12">
 
-					
-						<form id="setupform" method="post" action="<?php echo $permalink; ?>/wp-signup.php">
+						<form id="setupform" method="post" class="span9" action="<?php echo $permalink; ?>/wp-signup.php">
 							<input type="hidden" name="stage" value="validate-blog-signup" />
 							<input type="hidden" name="user_name" value="<?php echo esc_attr($user_name) ?>" />
 							<input type="hidden" name="user_email" value="<?php echo esc_attr($user_email) ?>" />
@@ -629,10 +627,12 @@ function signup_blog($user_name = '', $user_email = '', $blogname = '', $blog_ti
 							?>
 							<?php show_blog_form($blogname, $blog_title, $errors); ?>
 							<br/>
-							<p class="submit"><input type="submit" name="submit" class="btn btn-primary btn-default" value="<?php esc_attr_e('Signup') ?>" /></p>
+							<p class="submit"><input type="submit" name="submit" class="btn btn-primary btn-default" value="<?php esc_attr_e('Sign Up') ?>" /></p>
 						
 						</form>
-				</div>
+					<div class="span3">
+						<?php get_sidebar(signup); ?>
+					</div>
 			</div>
 		</div>
 	</div>
