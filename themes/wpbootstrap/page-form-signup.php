@@ -8,9 +8,9 @@ get_header(); ?>
 
 
 <div id="main-content">
-    <div id="topside" align="left" class="row">
+    <div id="topside" align="left">
         <h2>
-            <div class="selected span12"><span class="selectedon">Choose Your Plan ></span> Pick Your Username > Create Your Site
+            <div class="selected"><span class="selectedon">Choose Your Plan ></span> Pick Your Username > Create Your Site
             </div>
         </h2>
     </div>
