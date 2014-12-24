@@ -454,7 +454,6 @@ function signup_user( $user_name = '', $user_email = '', $errors = '' ) {
 	<div id="main-content">
 	    <div class="container">
 			<div class="row">
-				<div class="span12">
 
 					<h4><?php printf( __( 'This will be used to log into your site.' ), get_current_site()->site_name ) ?></h4>
 						<form id="setupform" class="span9" method="post" action="<?php echo $permalink; ?><?php echo $permalink; ?>/wp-signup.php" novalidate="novalidate">
@@ -483,7 +482,6 @@ function signup_user( $user_name = '', $user_email = '', $errors = '' ) {
 					<div class="span3">
 						<p>xxxxxxx</p>
 					</div>
-				</div>
 			</div>
 		</div>
 	</div>
