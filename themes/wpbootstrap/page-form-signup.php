@@ -15,10 +15,11 @@ get_header(); ?>
 <div id="main-content">
 
     <div class="container">
-                <div class="section-headlines text-center signform span8">
+                <div class="section-headlines signform span8">
                     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                         <div class="text-left"><h2><?php the_title(); ?></h2>
-                        <p><?php the_content(); ?></p></div>
+                        <p><?php the_content(); ?></p>
+                        </div>
 
                     <?php endwhile; else: ?>
                         <p><?php _e('Sorry, this page does not exist.'); ?></p>
