@@ -109,9 +109,9 @@ function show_blog_form( $blogname = '', $blog_title = '', $errors = '' ) {
 	$current_site = get_current_site();
 	// Blog name
 	if ( !is_subdomain_install() )
-		echo '<label for="blogname">' . __('Site Name:') . '</label>';
+		echo '<label for="blogname">' . __('Temporary Site Name:') . '</label>';
 	else
-		echo '<label for="blogname">' . __('Site Domain:') . '</label>';
+		echo '<label for="blogname">' . __('Temporary Site Domain:') . '</label>';
 
 	if ( $errmsg = $errors->get_error_message('blogname') ) { ?>
 		<p class="error"><?php echo $errmsg ?></p>
@@ -627,7 +627,7 @@ function signup_blog($user_name = '', $user_email = '', $blogname = '', $blog_ti
 							?>
 							<?php show_blog_form($blogname, $blog_title, $errors); ?>
 							<br/>
-							<p class="submit"><input type="submit" name="submit" class="btn btn-primary btn-default" value="<?php esc_attr_e('Sign Up') ?>" /></p>
+							<p class="submit"><input type="submit" name="submit" class="btn btn-primary btn-default" value="<?php esc_attr_e('Create') ?>" /></p>
 						
 						</form>
 					<div class="span3">
