@@ -13,8 +13,8 @@ get_header(); ?>
     </div>
 
 <div id="main-content">
-
-    <div class="container row">
+    <div class="container">
+        <div class="row">
                 <div class="section-headlines signform span8">
                     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                         <div class="text-left"><h2><?php the_title(); ?></h2>
