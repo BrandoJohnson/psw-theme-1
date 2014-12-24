@@ -468,6 +468,7 @@ function signup_user( $user_name = '', $user_email = '', $errors = '' ) {
 							<p>
 							<?php if ( $active_signup == 'blog' ) { ?>
 								<div class="span4">
+								<p>xxxxxxxx</p>
 									<input id="signupblog" type="hidden" name="signup_for" value="blog" />
 								</div>
 							<?php } elseif ( $active_signup == 'user' ) { ?>
