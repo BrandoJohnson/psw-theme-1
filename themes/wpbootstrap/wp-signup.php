@@ -91,6 +91,10 @@ do_action( 'before_signup_form' );
 ?>
 <div id="content" class="widecolumn">
 <div class="mu_register">
+	<div id="main-content">
+		<div class="container">
+			<div class="row">
+				<div class="span12">
 <?php
 /**
  * Generates and displays the Signup and Create Site forms
@@ -463,7 +467,9 @@ function signup_user( $user_name = '', $user_email = '', $errors = '' ) {
 
 							<p>
 							<?php if ( $active_signup == 'blog' ) { ?>
-								<input id="signupblog" type="hidden" name="signup_for" value="blog" />
+								<div class="span4">
+									<input id="signupblog" type="hidden" name="signup_for" value="blog" />
+								</div>
 							<?php } elseif ( $active_signup == 'user' ) { ?>
 								<input id="signupblog" type="hidden" name="signup_for" value="user" />
 							<?php } else { ?>
