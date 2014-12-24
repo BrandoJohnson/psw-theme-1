@@ -456,7 +456,7 @@ function signup_user( $user_name = '', $user_email = '', $errors = '' ) {
 			<div class="row">
 				<div class="span12">
 
-					<h4><?php printf( __( 'This will be used to log into your sitexxxxx.' ), get_current_site()->site_name ) ?></h4>
+					<h4><?php printf( __( 'This will be used to log into your site.' ), get_current_site()->site_name ) ?></h4>
 						<form id="setupform" method="post" action="<?php echo $permalink; ?><?php echo $permalink; ?>/wp-signup.php" novalidate="novalidate">
 							<input type="hidden" name="stage" value="validate-user-signup" />
 							<?php
@@ -467,10 +467,7 @@ function signup_user( $user_name = '', $user_email = '', $errors = '' ) {
 
 							<p>
 							<?php if ( $active_signup == 'blog' ) { ?>
-								<div class="span4">
-								<p>xxxxxxxx</p>
 									<input id="signupblog" type="hidden" name="signup_for" value="blog" />
-								</div>
 							<?php } elseif ( $active_signup == 'user' ) { ?>
 								<input id="signupblog" type="hidden" name="signup_for" value="user" />
 							<?php } else { ?>
