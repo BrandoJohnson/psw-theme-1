@@ -132,7 +132,7 @@ function show_blog_form( $blogname = '', $blog_title = '', $errors = '' ) {
 
 	// Blog Title
 	?>
-	<label for="blog_title"><?php _e('Site Title:') ?></label>
+	<label for="blog_title"><?php _e('Temporary Site Title:') ?></label>
 	<?php if ( $errmsg = $errors->get_error_message('blog_title') ) { ?>
 		<p class="error"><?php echo $errmsg ?></p>
 	<?php }
