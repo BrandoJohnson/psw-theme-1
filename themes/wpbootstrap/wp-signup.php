@@ -457,7 +457,7 @@ function signup_user( $user_name = '', $user_email = '', $errors = '' ) {
 				<div class="span12">
 
 					<h4><?php printf( __( 'This will be used to log into your site.' ), get_current_site()->site_name ) ?></h4>
-						<form id="setupform" method="post" action="<?php echo $permalink; ?><?php echo $permalink; ?>/wp-signup.php" novalidate="novalidate">
+						<form id="setupform" class="span9" method="post" action="<?php echo $permalink; ?><?php echo $permalink; ?>/wp-signup.php" novalidate="novalidate">
 							<input type="hidden" name="stage" value="validate-user-signup" />
 							<?php
 							/** This action is documented in wp-signup.php */
@@ -480,6 +480,9 @@ function signup_user( $user_name = '', $user_email = '', $errors = '' ) {
 
 							<p class="submit"><input type="submit" name="submit" class="btn btn-primary btn-default" value="<?php esc_attr_e('Next') ?>" /></p>
 						</form>
+					<div class="span3">
+						<p>xxxxxxx</p>
+					</div>
 				</div>
 			</div>
 		</div>
