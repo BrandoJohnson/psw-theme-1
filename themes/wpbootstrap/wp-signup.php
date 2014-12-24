@@ -627,7 +627,7 @@ function signup_blog($user_name = '', $user_email = '', $blogname = '', $blog_ti
 							?>
 							<?php show_blog_form($blogname, $blog_title, $errors); ?>
 							<br/>
-							<p class="submit"><input type="submit" name="submit" class="btn btn-primary" value="<?php esc_attr_e('Create') ?>" /></p>
+							<p class="submit"><input type="submit" name="submit" class="btn btn-primary newboard" value="<?php esc_attr_e('Create') ?>" /></p>
 						
 						</form>
 					<div class="span3">
