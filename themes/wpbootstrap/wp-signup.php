@@ -454,7 +454,7 @@ function signup_user( $user_name = '', $user_email = '', $errors = '' ) {
 	<div id="main-content">
 	    <div class="container">
 			<div class="row">
-					<p><?php printf( __( 'This will be used to log into your site.' ), get_current_site()->site_name ) ?></p>
+					<h4 class="yoursite"><?php printf( __( 'This will be used to log into your site.' ), get_current_site()->site_name ) ?></h4>
 						<form id="setupform" class="span9" method="post" action="<?php echo $permalink; ?><?php echo $permalink; ?>/wp-signup.php" novalidate="novalidate">
 							<input type="hidden" name="stage" value="validate-user-signup" />
 							<?php
