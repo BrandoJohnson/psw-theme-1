@@ -16,7 +16,7 @@ get_header(); ?>
 
     <div class="container">
         <div class="row">
-            <section class="section span12">
+            <section class="section">
                 <div class="section-headlines text-center signform span8">
                     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                         <div class="span8 text-left"><h2><?php the_title(); ?></h2>
@@ -26,7 +26,7 @@ get_header(); ?>
                         <p><?php _e('Sorry, this page does not exist.'); ?></p>
                     <?php endif; ?>
                 </div>
-                <div class="span2">
+                <div class="span4">
                     <?php get_sidebar(signup); ?>
                 </div>
             </section>
