@@ -8114,6 +8114,8 @@ h1 {
 h4.yoursite {
   margin-left: 2em;
 }
-.hideradio input[type="radio"] {
-  padding-left: 1em;
-}
+/*
+ .hideradio input[type="radio"] {
+   display: none;
+ }
+*/
