@@ -38,7 +38,7 @@
     <div class="container">
         <ul class="navlinks">
             <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
-            <a href="#" class="btn inline btn-success">Sign In</a>
+            <a href="#" class="btn inline btn-success">Pricing & Sign Up</a>
         </ul>
 
     </div>
