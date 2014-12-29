@@ -40,7 +40,6 @@
             <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
             <a href="/pricing/" class="btn inline btn-success">Pricing & Sign Up</a>
         </ul>
-
     </div>
 </nav>
 
