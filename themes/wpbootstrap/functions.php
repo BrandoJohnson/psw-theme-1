@@ -45,7 +45,7 @@ add_action( 'init', 'register_my_menus' );
 
 add_filter("gform_confirmation", "custom_confirmation", 10, 4);
 function custom_confirmation($confirmation, $form, $lead, $ajax){
-    if($form["id"] == "1" || $form["id"] =='3' || $form["id"] =='4' || $form["id"] =='9'){
+    if($form["id"] == "1" || $form["id"] =='7' || $form["id"] =='6'){
         $confirmation = array("redirect" =>"http://www.publicservicewebsites.net/wp-signup.php");
     }
     else if($form["id"] == "2"){
