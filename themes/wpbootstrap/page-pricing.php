@@ -39,7 +39,7 @@ get_header(); ?>
                                     <b>✔ &nbsp; Reliable Hosting & Domain Name Activation</b>
                                 </div>
                                 <div>
-                                    <b>✔ &nbsp; Go Live on One Week!</b>
+                                    <b>✔ &nbsp; Go Live!</b>
                                 </div>
                             </div>
                         </div>
@@ -48,9 +48,9 @@ get_header(); ?>
                     <div class="span4">
                         <div class="plan prefered">
                             <div class="plan-name">
-                                <h2>Service Plan + Email</h2>
+                                <h2>Service Plan + Content</h2>
                                 <h4><b>First Month is</b> Free</h4>
-                                <p class="muted">Boost your reach with an email marketing campaign - All of the benefits of the Service Plan, with Email Marketing.</p>
+                                <p class="muted">Get the most out of your site and have your content managed by our web professionals.</p>
                             </div>
                             <div class="plan-price">
                                 <b>+$79</b> / month
@@ -60,13 +60,13 @@ get_header(); ?>
                                     <b>Includes Service Plan</b>
                                 </div>
                                 <div>
-                                    <b>Done-for-you Monthly Email Blasts</b>
+                                    <b>Done-for-you Web Content Updates</b>
                                 </div>
                                 <div>
-                                    <b>Email Form Integration into your Website</b>
+                                    <b>Wordpress Updates & Backups</b>
                                 </div>
                                 <div>
-                                    <b>Email Layout to Match your Website</b>
+                                    <b>Security Updates</b>
                                 </div>
                             </div>
                             <div class="plan-action">
@@ -81,14 +81,14 @@ get_header(); ?>
                             <div class="plan-name">
                                 <h2>Service Plan Only</h2>
                                 <h4><b>First Month is</b> Free</h4>
-                                <p class="muted">The Service Plan Begins after the <b>Website Setup</b>. <br/>It covers web updates, hosting and support.</p>
+                                <p class="muted">The Service Plan Begins after the <b>Website Setup</b>. <br/> hosting, updates and support.</p>
                             </div>
                             <div class="plan-price">
                                 <b>+$59</b> / month
                             </div>
                             <div class="plan-details">
                                 <div>
-                                    <b>Done for you Web Updates</b>
+                                    <b>Web hosting</b>
                                 </div>
                                 <div>
                                     <b>24/7 Support</b>
@@ -97,7 +97,7 @@ get_header(); ?>
                                     <b>Regular Site Backups</b>
                                 </div>
                                 <div>
-                                    <b>Email Addresses @yourdomain.com</b>
+                                    <b>Wordpress Updates</b>
                                 </div>
                             </div>
                             <div class="plan-action">
