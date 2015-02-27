@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="../assets/ico/favicon.png">
     <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
 
-
+    <meta name="google-site-verification" content="2NBmFvDH7QcYhFRhTO2T70X9AsyDFEgiIR8Sis5GJDk" />
 
 </head>
 <body>
