@@ -10,7 +10,7 @@ get_header(); ?>
 <header id="heading">
     <div class="container text-center">
         <h1 class="headline">Done-For-You Websites for Public Service Organizations</h1><br/>
-        <h4>Spend time on your organization, not your website. Effective Web Design for your Organization setup and managed by web professionals.</h4>
+        <h4>Spend time on your organization, not your website. Effective Web Design for your Organization set up and managed by web professionals.</h4>
 
 
 
