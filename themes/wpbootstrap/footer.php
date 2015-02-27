@@ -2,7 +2,7 @@
         <div id="footer">
             <div class="container">
                 <p>&copy; <?php echo date("Y") ?> Public Service Websites</p>
-                <p><a href="#">Home</a> | <a href="#">Websites</a> | <a href="#">Pricing</a> | <a href="#">Contact</a></p>
+                <p><a href="#">Home</a> | <a href="#">Take a Tour</a> | <a href="/pricing/">Pricing</a> | <a href="#">Support</a></p> | <a href="/refund-policy/">Refund Policy</a></p>
                 </div>
         </div>
 
