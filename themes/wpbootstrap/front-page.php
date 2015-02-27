@@ -64,7 +64,7 @@ get_header(); ?>
         <div class="row-fluid">
             <ul class="thumbnails">
                 <li class="span4">
-                    <a href="http://www.mdfederation.com" class="thumbnail" target="_blank">
+                    <a href="http://www.mpdfederation.com" class="thumbnail" target="_blank">
                         <img src="<?php bloginfo('stylesheet_directory'); ?>/bootstrap/img/public_service_websites.png" alt="public service websites">
                     </a>
                 </li>
