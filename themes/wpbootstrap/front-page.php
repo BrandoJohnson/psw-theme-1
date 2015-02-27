@@ -56,9 +56,9 @@ get_header(); ?>
 
         <hr>
 
-        <h2>See Some Examples</h2>
+        <h2>Who's Choosing Public Service Websites?</h2>
         <div class="alert alert-info">
-            <strong>Note:</strong> Click on a theme to view a demo.
+            <strong>Note:</strong> Click on a thumbnail below to see some websites we have built.
         </div>
 
         <div class="row-fluid">
