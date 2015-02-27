@@ -70,7 +70,7 @@ get_header(); ?>
                 </li>
                 <li class="span4">
                     <a href="#" class="thumbnail" target="_blank">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/bootstrap/img/ferndale.png" alt="police department websites">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/bootstrap/img/twotouches.png" alt="police department websites">
                     </a>
                 </li>
                 <li class="span4">
