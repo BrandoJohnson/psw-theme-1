@@ -53,20 +53,29 @@ get_header(); ?>
                                 <p class="muted">Get the most out of your site and have your content managed by our web professionals.</p>
                             </div>
                             <div class="plan-price">
-                                <b>+$79</b> / month
+                                <b>+$89</b> / month
                             </div>
                             <div class="plan-details">
                                 <div>
-                                    <b>Includes Service Plan</b>
+                                    <b>✔ &nbsp; Management of Page Content</b>
                                 </div>
                                 <div>
-                                    <b>Done-for-you Web Content Updates</b>
+                                    <b>✔ &nbsp; Website Menu and Page Updates</b>
                                 </div>
                                 <div>
-                                    <b>Wordpress Updates & Backups</b>
+                                    <b>✔ &nbsp; Wordpress Updates & Backups</b>
                                 </div>
                                 <div>
-                                    <b>Security Updates</b>
+                                    <b>✔ &nbsp; Hosting</b>
+                                </div>
+                                <div>
+                                    <b>✔ &nbsp; Website Support</b>
+                                </div>
+                                <div>
+                                    <b>✔ &nbsp; Wordpress & Security Updates</b>
+                                </div>
+                                <div>
+                                    <b>✔ &nbsp; Regular Site Backups</b>
                                 </div>
                             </div>
                             <div class="plan-action">
@@ -88,16 +97,25 @@ get_header(); ?>
                             </div>
                             <div class="plan-details">
                                 <div>
-                                    <b>Web hosting</b>
+                                    <b class="muted"><strike>Management of Page Content</strike></b>
                                 </div>
                                 <div>
-                                    <b>24/7 Support</b>
+                                    <b class="muted"><strike>Website Menu and Page Updates</strike></b>
                                 </div>
                                 <div>
-                                    <b>Regular Site Backups</b>
+                                    <b class="muted"><strike>Wordpress Updates & Backups</strike></b>
                                 </div>
                                 <div>
-                                    <b>Wordpress Updates</b>
+                                    <b>✔ &nbsp; Hosting</b>
+                                </div>
+                                <div>
+                                    <b>✔ &nbsp; Website Support</b>
+                                </div>
+                                <div>
+                                    <b>✔ &nbsp; Wordpress & Security Updates</b>
+                                </div>
+                                <div>
+                                    <b>✔ &nbsp; Regular Site Backups</b>
                                 </div>
                             </div>
                             <div class="plan-action">
