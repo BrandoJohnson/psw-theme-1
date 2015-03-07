@@ -28,10 +28,11 @@ get_header(); ?>
                         <input type="checkbox" id="question1" name="q"  class="questions">
                         <div class="plus">+</div>
                         <label for="question1" class="question">
-                            This is the question that will be asked?
+                            Can I sign up for the service plan and decide to redo my site later?
                         </label>
                         <div class="answers">
-                            What if the answer is really long and wraps the whole page and you never want to finish it but you have to because its the answer!
+                            Yes! You can sign up for either the service plan or the Content + Service Plan and redo your website later if you decide to. Just specify 'I don't need a re-do, just monthly content updates to my website.' on the
+                            <a href="/sign-up/">Sign Up</a> page.
                         </div>
                     </div>
 
