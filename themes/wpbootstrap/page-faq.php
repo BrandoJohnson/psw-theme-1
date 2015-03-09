@@ -40,10 +40,10 @@ get_header(); ?>
                         <input type="checkbox" id="question2" name="q" class="questions">
                         <div class="plus">+</div>
                         <label for="question2" class="question">
-                            Short?
+                            Can I just sign up for a website, but not a service plan?
                         </label>
                         <div class="answers">
-                            short!
+                            No. Either the Service Plan or the Service Plan + Content are required when you sign up for a website.
                         </div>
                     </div>
 
@@ -51,10 +51,20 @@ get_header(); ?>
                         <input type="checkbox" id="question3" name="q" class="questions">
                         <div class="plus">+</div>
                         <label for="question3" class="question">
-                            But what if the question is really long and wraps the whole page and you feel like you will never finish reading the question?
+                            I just signed up and set up my website, now what?
                         </label>
                         <div class="answers">
-                            This is the answer!
+                            Check your inbox! You will have received an email with details and how you can send us content for your new site. Didn't get it?
+                        </div>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="question3" name="q" class="questions">
+                        <div class="plus">+</div>
+                        <label for="question3" class="question">
+                            I just signed up and set up my website, now what?
+                        </label>
+                        <div class="answers">
+                            We will be in touch with you shortly with details and how you can send us content for your new site.
                         </div>
                     </div>
                     <p class="muted text-center"><?php the_content(); ?></p>
