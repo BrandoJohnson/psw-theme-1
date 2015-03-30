@@ -104,6 +104,15 @@ body {
   color: #D95146;
 }
 /** alternate responsive traits **/
+@media (max-width: 1200px) {
+  .headline {
+    width: 100%;
+    float: left;
+    font-size: 44px !important;
+    line-height: 55px !important;
+    margin-top: 20px !important;
+  }
+}
 @media (max-width: 767px) {
   body {
     padding-right: 0 !important;
@@ -123,8 +132,19 @@ body {
     line-height: 55px;
   }
   #heading h4 {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 30px;
+    line-height: 42px;
+  }
+}
+@media (max-width: 721px) {
+  #heading h4 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 604px) {
+  #navigation {
+    display: none !important;
   }
 }
 @media (max-width: 550px) {
@@ -137,6 +157,35 @@ body {
   #navigation .navlinks li a {
     padding: 0 5px;
     font-size: 12px;
+  }
+  #heading h4 {
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 562px) {
+  #heading h4 {
+    line-height: 30px;
+  }
+}
+@media (max-width: 551px) {
+  #heading h4 {
+    font-size: 18px;
+    margin-bottom: 45px;
+  }
+  .row {
+    margin-top: 4em;
+    text-align: center;
+  }
+}
+@media (max-width: 438px) {
+  #heading h4 {
+    font-size: 18px;
+    display: none !important;
+  }
+  .row {
+    text-align: center;
+    margin-top: 0px;
   }
 }
 /*!
